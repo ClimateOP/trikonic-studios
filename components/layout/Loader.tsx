@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export function Loader() {
   const [hidden, setHidden] = useState(false);
@@ -16,9 +17,13 @@ export function Loader() {
         hidden ? 'invisible opacity-0' : 'opacity-100'
       }`}
     >
-      <div
-        className="triangle size-14 bg-accent"
-        style={{ animation: 'spin 1.2s linear infinite' }}
+      <Image
+        src="/trikonic-logo-transparent.png"
+        alt="Trikonic Studios"
+        width={120}
+        height={108}
+        priority
+        className="mix-blend-screen animate-pulse"
       />
       <p className="font-display text-sm uppercase tracking-[0.2em] text-faint">
         Rolling camera…

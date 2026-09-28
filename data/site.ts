@@ -6,8 +6,8 @@ export const site = {
   // TODO: replace with the client's real details
   socials: {
     instagram: 'https://www.instagram.com/trikonicstudios/',
-    email: 'hello@trikonicstudios.com',
-    whatsapp: '919999999999', // country code + number, no "+"
+    email: 'trikonicstudios@gmail.com',
+    whatsapp: '918329893558', // country code + number, no "+"
   },
 };
 

@@ -1,8 +1,8 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --color-accent: #f2c14e;
-  --color-accent-2: #d99a1e;
+  --color-accent: #eeb237;
+  --color-accent-2: #c98a1a;
   --color-bg-0: #0a0908;
   --color-bg-1: #14110c;
   --color-text: #f5efe0;
@@ -13,7 +13,7 @@
 }
 
 :root {
-  --accent-glow: rgba(242, 193, 78, 0.4);
+  --accent-glow: rgba(238, 178, 55, 0.4);
   --glass-bg: rgba(38, 30, 16, 0.35);
   --glass-bg-strong: rgba(38, 30, 16, 0.55);
   --glass-border: rgba(250, 220, 140, 0.16);

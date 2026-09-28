@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { site } from '@/data/site';
+import Image from 'next/image';
 
 export function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -80,10 +81,14 @@ export function Hero() {
 
         {/* Triangle play mark — swap for a showreel video later */}
         <div data-hero className="mx-auto opacity-0">
-          <div className="triangle relative size-64 bg-gradient-to-b from-accent to-accent-2 shadow-2xl md:size-80">
-            <div className="triangle absolute inset-[3px] bg-bg-1" />
-            <i className="fa-solid fa-play absolute left-1/2 top-[62%] -translate-x-[40%] -translate-y-1/2 text-4xl text-accent" />
-          </div>
+          <Image
+            src="/trikonic-logo-transparent.png"
+            alt="Trikonic Studios logo"
+            width={460}
+            height={413}
+            priority
+            className="w-64 mix-blend-screen drop-shadow-[0_0_60px_var(--accent-glow)] md:w-[420px]"
+          />
         </div>
       </div>
     </section>
