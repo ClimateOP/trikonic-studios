@@ -12,11 +12,11 @@ const links = [
     icon: 'fa-solid fa-envelope',
     href: `mailto:${site.socials.email}`,
   },
-  {
-    label: 'WhatsApp',
-    icon: 'fa-brands fa-whatsapp',
-    href: `https://wa.me/${site.socials.whatsapp}`,
-  },
+  // {
+  //   label: 'WhatsApp',
+  //   icon: 'fa-brands fa-whatsapp',
+  //   href: `https://wa.me/${site.socials.whatsapp}`,
+  // },
 ];
 
 export function Contact() {
