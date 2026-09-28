@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { site } from '@/data/site';
-import Image from 'next/image';
+import { HeroLogo } from '@/components/ui/HeroLogo';
 
 export function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -81,14 +81,9 @@ export function Hero() {
 
         {/* Triangle play mark — swap for a showreel video later */}
         <div data-hero className="mx-auto opacity-0">
-          <Image
-            src="/trikonic-logo-transparent.png"
-            alt="Trikonic Studios logo"
-            width={460}
-            height={413}
-            priority
-            className="w-64 mix-blend-screen drop-shadow-[0_0_60px_var(--accent-glow)] md:w-[420px]"
-          />
+          <div data-hero className="mx-auto opacity-0">
+            <HeroLogo />
+          </div>
         </div>
       </div>
     </section>
