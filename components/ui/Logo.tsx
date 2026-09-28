@@ -5,7 +5,7 @@ export function Logo() {
   return (
     <a
       href="#hero"
-      className="flex items-center gap-2 font-display text-lg font-bold tracking-tight"
+      className="flex items-center gap-1 font-display text-lg font-bold tracking-tight"
     >
       {site.name}
       <span className="text-accent">.</span>
