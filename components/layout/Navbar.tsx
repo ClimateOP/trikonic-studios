@@ -18,8 +18,13 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-4 z-[1000] flex justify-center px-4">
       <nav
         className={`glass relative flex w-full max-w-4xl items-center justify-between rounded-full px-6 transition-all duration-300 ${
-          scrolled ? 'bg-bg-0/70 py-2.5 shadow-2xl' : 'py-3.5'
+          scrolled ? 'py-2.5 shadow-2xl' : 'py-3.5'
         }`}
+        style={{
+          backgroundColor: scrolled
+            ? 'rgba(10, 9, 8, 0.88)'
+            : 'rgba(10, 9, 8, 0.65)',
+        }}
       >
         <Logo />
         <ul className="hidden items-center gap-8 md:flex">
@@ -43,7 +48,10 @@ export function Navbar() {
           <i className={`fa-solid ${open ? 'fa-xmark' : 'fa-bars'}`} />
         </button>
         {open && (
-          <ul className="glass-strong absolute left-0 right-0 top-full mt-2 flex flex-col gap-4 rounded-3xl p-6 md:hidden">
+          <ul
+            className="glass-strong absolute left-0 right-0 top-full mt-2 flex flex-col gap-4 rounded-3xl p-6 md:hidden"
+            style={{ backgroundColor: 'rgba(10, 9, 8, 0.9)' }}
+          >
             {navLinks.map((l) => (
               <li key={l.href}>
                 <a

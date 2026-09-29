@@ -1,17 +1,17 @@
 import { site } from '@/data/site';
 import { Reveal } from '@/components/ui/Reveal';
 
+const gmailCompose = `https://mail.google.com/mail/?view=cm&fs=1&to=${site.socials.email}&su=${encodeURIComponent(
+  'Project Inquiry — Trikonic Studios',
+)}&body=${encodeURIComponent('Hi Trikonic Studios,\n\n')}`;
+
 const links = [
   {
     label: 'Instagram',
     icon: 'fa-brands fa-instagram',
     href: site.socials.instagram,
   },
-  {
-    label: 'Gmail',
-    icon: 'fa-solid fa-envelope',
-    href: `mailto:${site.socials.email}`,
-  },
+  { label: 'Gmail', icon: 'fa-solid fa-envelope', href: gmailCompose },
   // {
   //   label: 'WhatsApp',
   //   icon: 'fa-brands fa-whatsapp',
