@@ -10,7 +10,7 @@ const space = Space_Grotesk({ subsets: ['latin'], variable: '--font-space' });
 const spline = Spline_Sans({ subsets: ['latin'], variable: '--font-spline' });
 
 export const metadata: Metadata = {
-  title: `${site.name} — Reels & Short Films`,
+  title: `${site.name} - Reels & Short Films`,
   description: site.description,
   icons: {
     icon: '/trikonic-logo-transparent.png',
