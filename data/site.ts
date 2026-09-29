@@ -30,8 +30,8 @@ export const services = [
     text: 'Story-first cinematic films, from script and shoot to the final grade.',
   },
   {
-    icon: 'fa-solid fa-wand-magic-sparkles',
-    title: 'Post-Production',
-    text: 'Editing, colour, sound design and motion polish that lifts raw footage.',
+    icon: 'fa-solid fa-bullhorn',
+    title: 'Advertisements',
+    text: 'High-impact video ads and reels made to showcase your brand, product or campaign.',
   },
 ];
