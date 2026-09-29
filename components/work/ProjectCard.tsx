@@ -13,7 +13,7 @@ export function ProjectCard({ project, onPlay }: ProjectCardProps) {
     <>
       <div
         className={`relative w-full overflow-hidden bg-bg-1 ${
-          isFilm ? 'aspect-video' : 'aspect-[9/16]'
+          isFilm ? 'aspect-video' : 'aspect-9/16'
         }`}
       >
         {isFilm ? (
@@ -23,7 +23,7 @@ export function ProjectCard({ project, onPlay }: ProjectCardProps) {
             className="size-full object-cover transition duration-500 group-hover:scale-105"
           />
         ) : (
-          <div className="size-full bg-gradient-to-br from-accent/20 via-bg-1 to-accent-2/20" />
+          <div className="size-full bg-linear-to-br from-accent/20 via-bg-1 to-accent-2/20" />
         )}
         <span className="absolute inset-0 flex items-center justify-center">
           <span className="triangle size-14 rotate-90 bg-accent/90 shadow-[0_0_30px_var(--accent-glow)] transition group-hover:scale-110" />

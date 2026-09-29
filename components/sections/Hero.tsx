@@ -32,7 +32,7 @@ export function Hero() {
       ref={root}
       className="relative flex min-h-screen items-center px-6 pb-20 pt-32"
     >
-      <div className="mx-auto grid w-full max-w-[1200px] items-center gap-12 md:grid-cols-[1.4fr_1fr]">
+      <div className="mx-auto grid w-full max-w-300 items-center gap-12 md:grid-cols-[1.4fr_1fr]">
         <div>
           <span
             data-hero
@@ -46,7 +46,7 @@ export function Hero() {
           </span>
           <h1
             data-hero
-            className="mb-4 bg-gradient-to-br from-white via-[#fde68a] to-accent bg-clip-text font-display text-[clamp(2.8rem,7vw,5.2rem)] font-bold leading-[1.02] tracking-tighter text-transparent opacity-0"
+            className="mb-4 bg-linear-to-br from-white via-[#fde68a] to-accent bg-clip-text font-display text-[clamp(2.8rem,7vw,5.2rem)] font-bold leading-[1.02] tracking-tighter text-transparent opacity-0"
           >
             Trikonic
             <br />
@@ -59,7 +59,7 @@ export function Hero() {
             Reels · Short Films ·{' '}
             <span className="text-accent">{site.tagline}</span>
           </p>
-          <p data-hero className="mb-8 max-w-[540px] text-dim opacity-0">
+          <p data-hero className="mb-8 max-w-135 text-dim opacity-0">
             We turn ideas into visual stories, from scroll-stopping reels to
             cinematic short films, shaped by concept, camera and cut.
           </p>

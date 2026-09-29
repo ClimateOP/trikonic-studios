@@ -22,7 +22,7 @@ const links = [
 export function Contact() {
   return (
     <section id="contact" className="px-6 py-24">
-      <div className="mx-auto max-w-[1200px]">
+      <div className="mx-auto max-w-300">
         <Reveal className="glass-strong rounded-3xl px-8 py-14 text-center">
           <span className="mb-2 block font-display text-sm font-semibold uppercase tracking-[0.15em] text-accent">
             ▲ 03 — Contact

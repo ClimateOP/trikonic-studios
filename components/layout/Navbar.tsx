@@ -15,7 +15,7 @@ export function Navbar() {
   }, []);
 
   return (
-    <header className="fixed inset-x-0 top-4 z-[1000] flex justify-center px-4">
+    <header className="fixed inset-x-0 top-4 z-1000 flex justify-center px-4">
       <nav
         className={`glass relative flex w-full max-w-4xl items-center justify-between rounded-full px-6 transition-all duration-300 ${
           scrolled ? 'py-2.5 shadow-2xl' : 'py-3.5'

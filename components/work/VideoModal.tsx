@@ -24,7 +24,7 @@ export function VideoModal({ project, onClose }: VideoModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[2000] flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm"
+      className="fixed inset-0 z-2000 flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm"
       onClick={onClose}
     >
       <div className="w-full max-w-4xl" onClick={(e) => e.stopPropagation()}>

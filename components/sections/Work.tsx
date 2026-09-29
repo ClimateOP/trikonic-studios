@@ -15,7 +15,7 @@ export function Work() {
 
   return (
     <section id="work" className="px-6 py-24">
-      <div className="mx-auto max-w-[1200px]">
+      <div className="mx-auto max-w-300">
         <SectionHead
           label="01 — Work"
           title="Stories we've brought to life."
