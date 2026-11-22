@@ -24,7 +24,7 @@ export function Contact() {
     <section id="contact" className="px-6 py-24">
       <div className="mx-auto max-w-300">
         <Reveal className="glass-strong rounded-3xl px-8 py-14 text-center">
-          <span className="mb-2 block font-display text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+          <span className="mb-2 block font-display text-sm font-semibold uppercase tracking-[0.15em] text-accent-soft">
             ▲ 03 — Contact
           </span>
           <h2 className="mb-3 font-display text-[clamp(1.8rem,4vw,2.6rem)] font-bold">
@@ -42,7 +42,7 @@ export function Contact() {
                 rel="noopener noreferrer"
                 className="glass inline-flex items-center gap-2.5 rounded-2xl px-6 py-3.5 text-sm font-medium transition hover:-translate-y-1 hover:border-accent hover:shadow-[0_10px_30px_var(--accent-glow)]"
               >
-                <i className={`${l.icon} text-lg text-accent`} />
+                <i className={`${l.icon} text-lg text-accent-soft`} />
                 {l.label}
               </a>
             ))}

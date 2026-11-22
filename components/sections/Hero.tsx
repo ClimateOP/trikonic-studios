@@ -36,7 +36,7 @@ export function Hero() {
         <div>
           <span
             data-hero
-            className="glass mb-6 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-accent opacity-0"
+            className="glass mb-6 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-accent-soft opacity-0"
           >
             <span
               className="size-2 rounded-full bg-accent"
@@ -46,7 +46,7 @@ export function Hero() {
           </span>
           <h1
             data-hero
-            className="mb-4 bg-linear-to-br from-white via-[#fde68a] to-accent bg-clip-text font-display text-[clamp(2.8rem,7vw,5.2rem)] font-bold leading-[1.02] tracking-tighter text-transparent opacity-0"
+            className="mb-4 bg-linear-to-br from-white via-[#ff9bb0] to-accent bg-clip-text font-display text-[clamp(2.8rem,7vw,5.2rem)] font-bold leading-[1.02] tracking-tighter text-transparent opacity-0"
           >
             Trikonic
             <br />
@@ -57,7 +57,7 @@ export function Hero() {
             className="mb-5 font-display text-[clamp(1.2rem,2.5vw,1.6rem)] font-medium opacity-0"
           >
             Reels · Short Films ·{' '}
-            <span className="text-accent">{site.tagline}</span>
+            <span className="text-accent-soft">{site.tagline}</span>
           </p>
           <p data-hero className="mb-8 max-w-135 text-dim opacity-0">
             We turn ideas into visual stories, from scroll-stopping reels to
@@ -66,7 +66,7 @@ export function Hero() {
           <div data-hero className="flex flex-wrap gap-4 opacity-0">
             <a
               href="#work"
-              className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-[#1a1305] shadow-[0_8px_30px_var(--accent-glow)] transition hover:-translate-y-0.5"
+              className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_30px_var(--accent-glow)] transition hover:-translate-y-0.5"
             >
               <i className="fa-solid fa-play" /> Watch Our Work
             </a>

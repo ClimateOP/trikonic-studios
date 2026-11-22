@@ -1,23 +1,24 @@
 @import 'tailwindcss';
 
 @theme inline {
-  --color-accent: #eeb237;
-  --color-accent-2: #c98a1a;
-  --color-bg-0: #0a0908;
-  --color-bg-1: #14110c;
-  --color-text: #f5efe0;
-  --color-dim: #c9bfa5;
-  --color-faint: #8a8168;
+  --color-accent: #c01438;
+  --color-accent-2: #8f0f2b;
+  --color-accent-soft: #ff5c7a; /* lighter tint for small text on dark bg */
+  --color-bg-0: #0a0809;
+  --color-bg-1: #140d10;
+  --color-text: #f7eef0;
+  --color-dim: #cdb9be;
+  --color-faint: #8a7479;
   --font-display: var(--font-space), sans-serif;
   --font-sans: var(--font-spline), system-ui, sans-serif;
 }
 
 :root {
-  --accent-glow: rgba(238, 178, 55, 0.4);
-  --glass-bg: rgba(38, 30, 16, 0.35);
-  --glass-bg-strong: rgba(38, 30, 16, 0.55);
-  --glass-border: rgba(250, 220, 140, 0.16);
-  --glass-border-strong: rgba(250, 220, 140, 0.35);
+  --accent-glow: rgba(192, 20, 56, 0.45);
+  --glass-bg: rgba(40, 16, 22, 0.35);
+  --glass-bg-strong: rgba(40, 16, 22, 0.55);
+  --glass-border: rgba(255, 150, 170, 0.16);
+  --glass-border-strong: rgba(255, 150, 170, 0.35);
 }
 
 html {
@@ -35,7 +36,7 @@ body {
 
 ::selection {
   background: var(--color-accent);
-  color: #1a1305;
+  color: #fff;
 }
 
 /* Custom cursor only on fine pointers */
@@ -77,15 +78,15 @@ body {
   background:
     radial-gradient(
       ellipse at 20% 10%,
-      rgba(242, 193, 78, 0.12),
+      rgba(192, 20, 56, 0.14),
       transparent 50%
     ),
     radial-gradient(
       ellipse at 80% 90%,
-      rgba(217, 154, 30, 0.14),
+      rgba(143, 15, 43, 0.18),
       transparent 50%
     ),
-    linear-gradient(180deg, #0a0908 0%, #14110c 50%, #0a0908 100%);
+    linear-gradient(180deg, #0a0809 0%, #140d10 50%, #0a0809 100%);
 }
 .bg-layer::before {
   content: '';
@@ -94,17 +95,17 @@ body {
   background-image:
     radial-gradient(
       circle at 25% 30%,
-      rgba(250, 210, 110, 0.07) 0,
+      rgba(255, 140, 160, 0.07) 0,
       transparent 2px
     ),
     radial-gradient(
       circle at 75% 60%,
-      rgba(250, 210, 110, 0.06) 0,
+      rgba(255, 140, 160, 0.06) 0,
       transparent 2px
     ),
     radial-gradient(
       circle at 45% 80%,
-      rgba(250, 210, 110, 0.05) 0,
+      rgba(255, 140, 160, 0.05) 0,
       transparent 2px
     );
   background-size:

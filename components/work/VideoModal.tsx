@@ -42,7 +42,7 @@ export function VideoModal({ project, onClose }: VideoModalProps) {
             href={`https://www.youtube.com/watch?v=${project.source}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-accent hover:underline"
+            className="text-sm text-accent-soft hover:underline"
           >
             <i className="fa-brands fa-youtube" /> Watch on YouTube
           </a>

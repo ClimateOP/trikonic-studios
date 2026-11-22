@@ -8,7 +8,7 @@ export function Logo() {
       className="flex items-center gap-1 font-display text-lg font-bold tracking-tight"
     >
       {site.name}
-      <span className="text-accent">.</span>
+      <span className="text-accent-soft">.</span>
     </a>
   );
 }

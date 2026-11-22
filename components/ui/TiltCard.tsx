@@ -45,7 +45,7 @@ export function TiltCard({ children, className = '' }: TiltCardProps) {
         ref={inner}
         className={`group glass relative overflow-hidden rounded-[20px] will-change-transform hover:border-(--glass-border-strong) hover:shadow-[0_20px_50px_rgba(0,0,0,0.4)] ${className}`}
       >
-        <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 [background:radial-gradient(circle_at_var(--mx,50%)_var(--my,50%),rgba(238,178,55,0.14),transparent_60%)] group-hover:opacity-100" />
+        <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 [background:radial-gradient(circle_at_var(--mx,50%)_var(--my,50%),rgbargba(192,20,56,0.2),transparent_60%)] group-hover:opacity-100" />
         {children}
       </div>
     </div>

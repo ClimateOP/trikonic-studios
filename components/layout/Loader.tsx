@@ -13,7 +13,7 @@ export function Loader() {
 
   return (
     <div
-      className={`fixed inset-0 z-[99998] flex flex-col items-center justify-center gap-5 bg-bg-0 transition-all duration-700 ${
+      className={`fixed inset-0 z-99998 flex flex-col items-center justify-center gap-5 bg-bg-0 transition-all duration-700 ${
         hidden ? 'invisible opacity-0' : 'opacity-100'
       }`}
     >

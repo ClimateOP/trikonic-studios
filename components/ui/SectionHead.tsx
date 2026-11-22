@@ -9,7 +9,7 @@ interface SectionHeadProps {
 export function SectionHead({ label, title, sub }: SectionHeadProps) {
   return (
     <Reveal className="mb-12">
-      <span className="mb-2 block font-display text-sm font-semibold uppercase tracking-[0.15em] text-accent">
+      <span className="mb-2 block font-display text-sm font-semibold uppercase tracking-[0.15em] text-accent-soft">
         ▲ {label}
       </span>
       <h2 className="font-display text-[clamp(2rem,5vw,3rem)] font-bold leading-[1.1] tracking-tight">

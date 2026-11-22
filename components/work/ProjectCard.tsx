@@ -28,7 +28,7 @@ export function ProjectCard({ project, onPlay }: ProjectCardProps) {
         <span className="absolute inset-0 flex items-center justify-center">
           <span className="triangle size-14 rotate-90 bg-accent/90 shadow-[0_0_30px_var(--accent-glow)] transition group-hover:scale-110" />
         </span>
-        <span className="glass absolute left-3 top-3 rounded-full px-3 py-1 text-xs text-accent">
+        <span className="glass absolute left-3 top-3 rounded-full px-3 py-1 text-xs text-accent-soft">
           {isFilm ? 'Short Film' : 'Reel'}
         </span>
       </div>

@@ -17,7 +17,7 @@ export function Services() {
             <Reveal key={s.title} delay={i * 0.1}>
               <TiltCard className="h-full p-8">
                 <div className="relative">
-                  <div className="mb-4 flex size-12 items-center justify-center rounded-xl border border-(--glass-border) bg-accent/10 text-xl text-accent">
+                  <div className="mb-4 flex size-12 items-center justify-center rounded-xl border border-(--glass-border) bg-accent/10 text-xl text-accent-soft">
                     <i className={s.icon} />
                   </div>
                   <h3 className="mb-2 font-display text-xl font-semibold">

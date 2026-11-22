@@ -28,7 +28,7 @@ export function Work() {
               onClick={() => setFilter(f.value)}
               className={`rounded-full border px-5 py-2 text-sm font-medium transition ${
                 filter === f.value
-                  ? 'border-accent bg-accent text-[#1a1305]'
+                  ? 'border-accent bg-accent text-white'
                   : 'glass text-dim hover:text-text'
               }`}
             >
