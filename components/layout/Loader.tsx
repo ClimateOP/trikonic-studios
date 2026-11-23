@@ -20,10 +20,10 @@ export function Loader() {
       <Image
         src="/trikonic-logo-transparent.png"
         alt="Trikonic Studios"
-        width={120}
-        height={108}
+        width={300}
+        height={300}
         priority
-        className="mix-blend-screen animate-pulse"
+        className="h-auto w-30 animate-pulse"
       />
       <p className="font-display text-sm uppercase tracking-[0.2em] text-faint">
         Rolling camera…

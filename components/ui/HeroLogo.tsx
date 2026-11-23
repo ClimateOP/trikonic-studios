@@ -53,10 +53,10 @@ export function HeroLogo() {
       <Image
         src="/trikonic-logo-transparent.png"
         alt="Trikonic Studios logo"
-        width={460}
-        height={413}
+        width={300}
+        height={300}
         priority
-        className="w-64 drop-shadow-[0_0_60px_var(--accent-glow)] md:w-[420px]"
+        className="h-auto w-64 drop-shadow-[0_0_60px_var(--accent-glow)] md:w-105"
       />
     </div>
   );

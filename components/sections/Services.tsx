@@ -6,7 +6,7 @@ import { TiltCard } from '@/components/ui/TiltCard';
 export function Services() {
   return (
     <section id="services" className="px-6 py-24">
-      <div className="mx-auto max-w-[1200px]">
+      <div className="mx-auto max-w-300">
         <SectionHead
           label="02 — Services"
           title="Three points. Everything you need."

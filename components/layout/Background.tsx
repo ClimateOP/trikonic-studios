@@ -3,11 +3,11 @@ export function Background() {
     <>
       <div className="bg-layer" />
       <div
-        className="pointer-events-none fixed -left-24 -top-36 -z-10 size-[500px] rounded-full bg-accent opacity-25 blur-[80px]"
+        className="pointer-events-none fixed -left-24 -top-36 -z-10 size-125 rounded-full bg-accent opacity-25 blur-[80px]"
         style={{ animation: 'float1 18s ease-in-out infinite' }}
       />
       <div
-        className="pointer-events-none fixed -bottom-32 -right-20 -z-10 size-[450px] rounded-full bg-accent-2 opacity-25 blur-[80px]"
+        className="pointer-events-none fixed -bottom-32 -right-20 -z-10 size-112.5 rounded-full bg-accent-2 opacity-25 blur-[80px]"
         style={{ animation: 'float2 22s ease-in-out infinite' }}
       />
       {/* Triangle motif */}
